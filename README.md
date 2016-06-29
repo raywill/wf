@@ -37,10 +37,14 @@ cat story.txt |tr -cs "[a-z][A-Z][0-9]" "[\012*]" | tr A-Z a-z |sort | ./wf -v -
 
 # Options
 
- -l
-   word dict level, from 1 to 7, see more in .wf directory
+ -l N
+ 
+ > N indecates word dict level, from 1 to 7, default is 1. see more in .wf directory
+ 
+
  -v
-   if -v specified, will output all un-matched words, otherwise output matched words
+ 
+ > if -v specified, will output all un-matched words, otherwise output matched words
 
 
 # Links
