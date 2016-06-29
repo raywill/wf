@@ -16,7 +16,9 @@ or, you can use
 # Auto Compile & Install
 ```
 git clone https://github.com/raywill/wf
+cd wf/
 make
+make test
 ```
 
 # Basic Usage
