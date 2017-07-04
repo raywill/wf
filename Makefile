@@ -1,5 +1,5 @@
 all:
-	gcc -o wf wf.c
+	g++ -o wf wf.cpp
 	cp -f wf /usr/local/bin/
 	cp -r .wf ~/
 

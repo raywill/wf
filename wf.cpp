@@ -125,7 +125,7 @@ int main(int argc, char* const* argv)
        exit(-1);
      }
 
-     gDict = malloc(gDictMemSize); // 50M，不够再realloc
+     gDict = (char*)malloc(gDictMemSize); // 50M，不够再realloc
      if (NULL == gDict) {
        fprintf(stderr, "not enough memory\n");
        exit(-1);
